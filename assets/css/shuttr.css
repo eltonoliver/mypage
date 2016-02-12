@@ -1,0 +1,202 @@
+/* ==========================================================================
+   Body
+   ========================================================================== */
+body {
+  min-height: 100%;
+  background: transparent;
+  background: #242b2e;
+  color: #e5e9eb; }
+
+html.js .photostack::after {
+  content: 'Preview Gallery'; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+#container-coming-soon {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  font-weight: 200;
+  line-height: 1.25em; }
+#container-coming-soon h1, #container-coming-soon h2, #container-coming-soon h3, #container-coming-soon h4, #container-coming-soon h5, #container-coming-soon h6 {
+  font-weight: 300;
+  line-height: 1.2em;
+  color: #fff; }
+#container-coming-soon h1 a, #container-coming-soon h2 a, #container-coming-soon h3 a, #container-coming-soon h4 a, #container-coming-soon h5 a, #container-coming-soon h6 a {
+  color: #fff;
+  border-color: #fff; }
+#container-coming-soon a {
+  color: #fff;
+  text-decoration: none; }
+#container-coming-soon .photostack-title {
+  color: #2E363A; }
+
+/* ==========================================================================
+  Forms
+  ========================================================================== */
+#container-coming-soon form {
+  margin: 30px 0px 15px; }
+#container-coming-soon form input[type="text"], #container-coming-soon form input[type="password"], #container-coming-soon form input[type="date"], #container-coming-soon form input[type="datetime"], #container-coming-soon form input[type="datetime-local"], #container-coming-soon form input[type="month"], #container-coming-soon form input[type="week"], #container-coming-soon form input[type="email"], #container-coming-soon form input[type="number"], #container-coming-soon form input[type="search"], #container-coming-soon form input[type="tel"], #container-coming-soon form input[type="time"], #container-coming-soon form input[type="url"], #container-coming-soon form textarea {
+  border: 0px; }
+#container-coming-soon form .success {
+  display: none; }
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+#container-coming-soon header .site-title {
+  margin-bottom: 30px; }
+#container-coming-soon header .site-title a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+  border: 0px;
+  border-bottom: 1px solid transparent; }
+#container-coming-soon header .site-title a:hover {
+  border-color: #fff; }
+
+/* ==========================================================================
+    Main Content
+    ========================================================================== */
+#container-coming-soon .row {
+  max-width: 100%; }
+#container-coming-soon .row .left-block {
+  background: #242b2e;
+  padding: 40px;
+  -webkit-box-shadow: 0 0 50px black;
+  -moz-box-shadow: 0 0 50px black;
+  box-shadow: 0 0 50px black;
+  z-index: 50; }
+#container-coming-soon .row .right-block {
+  min-height: 100%;
+  background: transparent;
+  z-index: 30; }
+#container-coming-soon .row .right-block .photostack nav span {
+  background: #007095;
+  -webkit-box-shadow: 0 5px 2px #242b2e;
+  -moz-box-shadow: 0 5px 2px #242b2e;
+  box-shadow: 0 5px 2px #242b2e; }
+#container-coming-soon .row .creds {
+  color: #90a1a8; }
+#container-coming-soon .row .creds a {
+  border-color: transparent;
+  color: #fff; }
+
+/* ==========================================================================
+    Footer
+    ========================================================================== */
+#container-coming-soon footer {
+  font-size: 0.8em; }
+#container-coming-soon footer, #container-coming-soon footer a {
+  color: #63767e;
+  border-color: transparent; }
+#container-coming-soon footer a:hover {
+  color: #fff; }
+
+/* ==========================================================================
+    Social Media
+    ========================================================================== */
+#container-coming-soon .socials ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+#container-coming-soon .socials ul li {
+  list-style: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-right: 6px;
+  margin-bottom: 8px; }
+#container-coming-soon .socials ul li:last-child {
+  margin-right: 0px; }
+#container-coming-soon .socials ul li a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  border: 0px; }
+#container-coming-soon .socials ul li a i {
+  color: #fff;
+  font-size: 14px;
+  line-height: 27px; }
+#container-coming-soon .socials ul li a, #container-coming-soon .socials ul li a i {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.16s;
+  -moz-transition-duration: 0.16s;
+  -o-transition-duration: 0.16s;
+  transition-duration: 0.16s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out; }
+#container-coming-soon .socials ul li a:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+#container-coming-soon .socials .facebook {
+  background: #3b5998; }
+#container-coming-soon .socials .twitter {
+  background: #00aced; }
+#container-coming-soon .socials .gplus {
+  background: #D14836; }
+#container-coming-soon .socials .youtube {
+  background: #CD332D; }
+#container-coming-soon .socials .linkedin {
+  background: #007FB1; }
+#container-coming-soon .socials .instagram {
+  background: #3F729B; }
+#container-coming-soon .socials .pinterest {
+  background: #CB2027; }
+#container-coming-soon .socials .quora {
+  background: #a82400; }
+#container-coming-soon .socials .flickr {
+  background: #ff0084; }
+#container-coming-soon .socials .tumblr {
+  background: #2C4762; }
+#container-coming-soon .socials .vimeo {
+  background: #44BBFF; }
+#container-coming-soon .socials .dribbble {
+  background: #EA4C89; }
+#container-coming-soon .socials .stumbleupon {
+  background: #EB4924; }
+#container-coming-soon .socials .spotify {
+  background: #80B719; }
+#container-coming-soon .socials .digg {
+  background: #14589E; }
+#container-coming-soon .socials .behance {
+  background: #1769FF; }
+#container-coming-soon .socials .reddit {
+  background: #FF4500; }
+#container-coming-soon .socials .picasa {
+  background: #4B5D5F; }
+#container-coming-soon .socials .fivehundredpx {
+  background: #444444; }
+#container-coming-soon .socials .wordpress {
+  background: #21759B; }
+#container-coming-soon .socials .deviantart {
+  background: #4B5D50; }
+#container-coming-soon .socials .delicious {
+  background: #3274D1; }
+#container-coming-soon .socials .camera {
+  background: #A62C39; }
+#container-coming-soon .socials .picture {
+  background: #5A471B; }
